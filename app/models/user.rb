@@ -7,4 +7,8 @@ class User < ApplicationRecord
 
   attachment :user_image, destroy: false
 
+  def vlogs
+    return Vlog.where(user_id: self.id)
+  end
+
 end

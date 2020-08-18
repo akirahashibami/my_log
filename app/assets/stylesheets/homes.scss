@@ -1,3 +1,25 @@
 // Place all the styles related to the homes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#my_log-top{
+
+  #top-wrapper{
+  
+    .top-video{
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -150;
+      background-size: cover;
+    }
+
+    .top-title{
+
+    }
+  }
+}
